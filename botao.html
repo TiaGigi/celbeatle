@@ -4,8 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>oi</title>
+    <style>
+      body {
+           
+
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <div><h1>Vapo</h1></div>
+    </header>
+    <form action="" method="post">
+    <fieldset>
+        <legend>identificação</legend>
+        <p>
+            <label for="name">Nome:</label>
+            <input type="text"name="name" placeholder="digite seu nome completo" maxlength="300">
+        </p>
+        <p>
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" placeholder="digite sua senha" maxlength="300">
+        </p>
+        <p>
+            <label for="e-mail">E-mail</label>
+            <input type="text" id="e-mail" placeholder="digite seu e-mail" maxlength="300">
+        </p>
+        <p>
+            <input type="radio" name="sexo" id="Masculino">
+            <label for="Masculino"> Masculino</label>
+            <input type="radio" name="sexo" id="Feminino">
+            <label for="Feminino"> Feminino</label>
+        </p>
+        <p>
+            <label for="nascimento">Data de Nascimento:</label>
+            <input type="date" id="nascimento">
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Endereço</legend>
+        <p>
+            <label for="rua">Rua:</label>
+            <input type="text" id="nCasa" placeholder="nCasa" maxlength="300">
+        </p>
+        <p>
+            <label for="estado">Estado:</label>
+            <select name="" id="estado">
+                <optgroup label="Região sudeste">
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="ES">Espirito Santo</option>
+                </optgroup>
+            </select>
+            <select name="" id="estado">
+                <optgroup label="Região sul">
+                <option value="PR">Paraná</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="RS">Rio Grande do Sul</option>
+                </optgroup>
+        </p>
+    </form>
     <a href="index.html">cerurar</a>
 </body>
 </html>
